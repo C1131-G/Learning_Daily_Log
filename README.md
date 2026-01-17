@@ -23,12 +23,23 @@ Learning_Daily_Log/
 
 ## 📖 What I'm Learning
 
-### JavaScript Fundamentals
-- **[Event Loop - Promises & Microtasks](Javascript/JavaScript%20Event%20Loop/Promises%20%26%20Microtasks.md)** - Understanding async execution, microtask vs macrotask queues
-- **[Event Loop Resources](Javascript/JavaScript%20Event%20Loop/Reference.md)** - Curated learning materials
+### JavaScript & Professionalism
+- **[Practice: Event Loop Questions](Javascript/Event%20Loop/Questions.md)** | **[Resources](Javascript/Event%20Loop/Resources.md)**
+- **[Article: Strategic Cynicism](Articles/Javascript/Professionalism/Strategic-Cynicism.md)** | **[Resources](Articles/Javascript/Professionalism/Resources.md)**
+
+### React & Performance
+- **[Article: Server Components Architecture](Articles/React/Server%20Components/Architecture.md)** | **[Resources](Articles/React/Server%20Components/Resources.md)**
+- **[Article: Performance Optimization](Articles/React/Performance/Optimization.md)** | **[Resources](Articles/React/Performance/Resources.md)**
+- **[Article: Type-Safe Compound Components](Articles/React/Compound%20Components/TypeSafe-Factory.md)** | **[Resources](Articles/React/Compound%20Components/Resources.md)**
+- **[Article: Bun for React SSR](Articles/React/Bun%20SSR/Runtime-Experiment.md)** | **[Resources](Articles/React/Bun%20SSR/Resources.md)**
+- **[Article: Fiber Reconstruction](Articles/React/Fiber%20Reconstruction/Reverse-Engineering.md)** | **[Resources](Articles/React/Fiber%20Reconstruction/Resources.md)**
+- **[Article: Testing with act()](Articles/React/Testing/act-Function.md)** | **[Resources](Articles/React/Testing/Resources.md)**
+
+### Next.js & Frameworks
+- **[Article: Next.js vs. TanStack Start](Articles/Nextjs/Next-vs-TanStack/Comparison.md)** | **[Resources](Articles/Nextjs/Next-vs-TanStack/Resources.md)**
 
 ### Best Practices
-- **[Structured Logging](Articles/Logging/loggingsucks.md)** - Modern logging with JSON, OpenTelemetry, and Pino
+- **[Article: Structured Logging](Articles/Logging/Structured/Best-Practices.md)** | **[Resources](Articles/Logging/Structured/Resources.md)**
 
 ### Coming Soon
 - Next.js patterns and best practices
