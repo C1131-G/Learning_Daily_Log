@@ -1,18 +1,25 @@
-# ([logging sucks](https://loggingsucks.com/))\
+# ([logging sucks](https://loggingsucks.com/))
 
 ## Learning
 
-**Stop Using Strings**: Never log simple sentences like "Payment failed." Computers cannot easily search or filter sentences.
+**Stop Using Strings**: 
+Never log simple sentences like "Payment failed." Computers cannot easily search or filter sentences.
 
-**Start Using JSON**: Always log objects (key-value pairs). This allows tools to filter by specific fields like user_id or error_code.
+**Start Using JSON**: 
+Always log objects (key-value pairs). This allows tools to filter by specific fields like user_id or error_code.
 
-**Centralize Context**: Don't log five times in one function. Log once at the end of the operation with all the details (input, output, duration, and error).
+**Centralize Context**: 
+Don't log five times in one function. Log once at the end of the operation with all the details (input, output, duration, and error).
 
-**Standardize Keys**: Decide on naming conventions early (e.g., always use user_id, never mix it with userId or uid) to ensure searches work across the whole system.
+**Standardize Keys**: 
+Decide on naming conventions early (e.g., always use user_id, never mix it with userId or uid) to ensure searches work across the whole system.
 
 ## Examples
+
 **The Bad Example (Standard console.log)**
+
 **This is hard to read and impossible to filter automatically.**
+
 // BAD
 try {
   await processPayment(user);
@@ -24,7 +31,9 @@ try {
 }
 
 **The Good Example (Structured Object)**
+
 **This creates a single "Wide Event" that contains the full story.**
+
 // GOOD
 try {
   const start = Date.now();
@@ -42,4 +51,4 @@ try {
   });
 }
 
-
+- Check OpenTelemetry JS SDK and Pino.
