@@ -20,7 +20,7 @@ Decide on naming conventions early (e.g., always use user_id, never mix it with 
 
 **This is hard to read and impossible to filter automatically.**
 
-// BAD
+`// BAD
 
 try {
 
@@ -36,13 +36,13 @@ try {
 
   console.log("User was " + user.email);
 
-}
+}`
 
 **The Good Example (Structured Object)**
 
 **This creates a single "Wide Event" that contains the full story.**
 
-// GOOD
+`// GOOD
 
 try {
 
@@ -76,5 +76,5 @@ try {
   });
 
 }
-
+`
 **Check OpenTelemetry JS SDK and Pino.**

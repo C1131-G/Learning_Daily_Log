@@ -1,13 +1,13 @@
 ## Question
 ### Explain what will be printed to the console, in what order, and why this order happens.
 
-console.log("A");
+`console.log("A");
 
 Promise.resolve().then(() => {
   console.log("B");
 });
 
-console.log("C");
+console.log("C");`
 
 ### Answer
 Correct output order: A → C → B
