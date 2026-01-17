@@ -21,13 +21,21 @@ Decide on naming conventions early (e.g., always use user_id, never mix it with 
 **This is hard to read and impossible to filter automatically.**
 
 // BAD
+
 try {
+
   await processPayment(user);
+
 } catch (err) {
+
   // ❌ Vague string, missing context, separate lines make it hard to group
+
   console.log("Payment started"); 
+
   console.log("Error happened: " + err); 
+
   console.log("User was " + user.email);
+
 }
 
 **The Good Example (Structured Object)**
@@ -35,20 +43,38 @@ try {
 **This creates a single "Wide Event" that contains the full story.**
 
 // GOOD
+
 try {
+
   const start = Date.now();
+  
   await processPayment(user);
+
 } catch (err) {
+
   // ✅ Single JSON object with all context (Business, User, Error, Performance)
+
   logger.error({
-    event: "payment_failed",            // What happened
+
+    event: 
+    
+    "payment_failed",            /
+    / What happened
+    
     user_id: user.id,                   // Who it happened to
-    plan_tier: user.subscription,       // Business context
+    
+    plan_tier: user.subscription,       // 
+    
+    Business context
     error_code: err.code || "UNKNOWN",  // Specific error for filtering
+    
     error_message: err.message,         // Human readable details
+    
     duration_ms: Date.now() - start,    // Performance metric
-    path: "/api/checkout"               // Location
+    
+    path: "/api/checkout"               //Location
   });
+
 }
 
-- Check OpenTelemetry JS SDK and Pino.
+**Check OpenTelemetry JS SDK and Pino.**
