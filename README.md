@@ -35,8 +35,11 @@ Learning_Daily_Log/
 - **[Article: Fiber Reconstruction](Articles/React/Fiber%20Reconstruction/Reverse-Engineering.md)** | **[Resources](Articles/React/Fiber%20Reconstruction/Resources.md)**
 - **[Article: Testing with act()](Articles/React/Testing/act-Function.md)** | **[Resources](Articles/React/Testing/Resources.md)**
 
-### Next.js & Frameworks
-- **[Article: Next.js vs. TanStack Start](Articles/Nextjs/Next-vs-TanStack/Comparison.md)** | **[Resources](Articles/Nextjs/Next-vs-TanStack/Resources.md)**
+### AI & Tools
+- **[Article: The Shorthand Guide to Claude Code](Articles/AI/Claude%20Code/The-Shorthand-Guide.md)** | **[Resources](Articles/AI/Claude%20Code/Resources.md)**
+
+### Personal Development
+- **[Article: The 1-Day Protocol](Articles/Personal%20Development/Productivity/The-1-Day-Protocol.md)** | **[Resources](Articles/Personal%20Development/Productivity/Resources.md)**
 
 ### Best Practices
 - **[Article: Structured Logging](Articles/Logging/Structured/Best-Practices.md)** | **[Resources](Articles/Logging/Structured/Resources.md)**
