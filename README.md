@@ -47,6 +47,9 @@ Learning_Daily_Log/
 ### Best Practices
 - **[Article: Structured Logging](Articles/Logging/Structured/Best-Practices.md)** | **[Resources](Articles/Logging/Structured/Resources.md)**
 
+### Design
+- **[Reference: Lessons.design](Articles/Design/Lessons-Design/Reading-Reference.md)**
+
 ### Coming Soon
 - Next.js patterns and best practices
 - React advanced concepts
